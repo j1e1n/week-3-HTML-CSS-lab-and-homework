@@ -1,5 +1,35 @@
-#input {
-    rows: 5;
-    column-span: 200;
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+    
+}
 
+body > header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 16px;
+}
+
+nav > ul { 
+    list-style: none;
+    float: right;
+
+}
+
+nav > ul > li > a {
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+
+footer {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+
+article {
+    margin: 100px;
 }
